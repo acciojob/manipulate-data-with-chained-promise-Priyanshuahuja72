@@ -1,7 +1,7 @@
 //your JS code here. If required.
 function oddNumber(arr)
 {
- let odd = arr.filter((num) => num%2 == 0)
+ let odd = arr.filter((num) => num%2 == 1)
 return odd;
 }
 function evenNumber(arr)
@@ -37,5 +37,5 @@ let button = document.getElementById("sub");
 button.addEventListener("click" , () => {
     let aval = document.getElementById("input-val").value;
     let arr = aval.split(',');
-    Promise.all([promise1(arr) , promise2(arr)])
+    Promise.all([promise2(arr) , promise1(arr)])
 })

@@ -1,7 +1,7 @@
 //your JS code here. If required.
 function oddNumber(arr)
 {
- let odd = arr.filter((num) => num%2 == 1)
+ let odd = arr.filter((num) => num%2 == 0)
 return odd;
 }
 function evenNumber(arr)
